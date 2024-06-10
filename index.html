@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Book Gallery</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Alumni+Sans+Inline+One:ital@1&family=Danfo&family=Eagle+Lake&family=Inspiration&family=Jacquard+12&family=Montserrat:wght@100;200&family=Moon+Dance&family=Mouse+Memoirs&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-book"></i> BOOK GALLERY</h1>
+    </header>
+
+    <!-- <section id="banner"></section> -->
+    <section id="video">
+        <video src="../vids/185096-874643413_medium.mp4" autoplay loop>
+        </video>
+    </section>
+    
+    <div class="row">
+        <div class="col">
+            <img src="https://m.media-amazon.com/images/I/81NQA1BDlnL._AC_UF1000,1000_QL80_.jpg" alt="HARRY POTTER AND THE PRISONER OF AZKABAN">
+            <h3>HARRY POTTER AND THE PRISONER OF AZKABAN</h3>
+            <h4>Price: <span>RS 600</span> </h4>
+            <a href="https://www.amazon.in/Harry-Potter-Prisoner-Azkaban/dp/1408855674">
+                <button>BUY NOW</button>
+            </a>
+        </div>
+        <div class="col">
+            <img src="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg" alt="HARRY POTTER AND THE PHILOSOPHER'S STONE">
+            <h3>HARRY POTTER AND THE PHILOSOPHER'S STONE</h3>
+            <h4>Price: <span>RS 650</span></h4>
+            <a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
+                <button>BUY NOW</button>
+            </a>
+        </div>
+        <div class="col">
+            <img src="https://m.media-amazon.com/images/I/818umIdoruL._AC_UF1000,1000_QL80_.jpg" alt="HARRY POTTER AND THE CHAMBER OF SECRETS">
+            <h3>HARRY POTTER AND THE CHAMBER OF SECRETS</h3>
+            <h4>Price: <span>RS 630</span></h4>
+            <a href="https://www.amazon.in/Potter-Chamber-Secrets-Childrens-Hardcover/dp/1408855909">
+                <button>BUY NOW</button>
+            </a>
+        </div>
+        <div class="col">
+            <img src="https://m.media-amazon.com/images/I/81aCMT1zKtL._SY466_.jpg" alt="HARRY POTTER AND THE DEATHLY HALLOWS">
+            <h3>HARRY POTTER AND THE DEATHLY HALLOWS</h3>
+            <h4>Price: <span>RS 620</span></h4>
+            <a href="https://www.amazon.in/Harry-Potter-Deathly-Hallows/dp/1408855712/ref=asc_df_1408855712/?tag=googleshopdes-21&linkCode=df0&hvadid=396985200150&hvpos=&hvnetw=g&hvrand=13615020774063029500&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9149274&hvtargid=pla-364195446444&psc=1&mcid=d9f7df0ae0c531dda385b95b022ed12b&ext_vrnc=hi">
+                <button>BUY NOW</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="foot">
+            <div class="f1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.541959175935!2d76.30948087813945!3d10.008897991648862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1716025716510!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="f1">
+                <h2>CONTACT US</h2>
+                <h3><i class="fa-brands fa-square-facebook"></i> Facebook</h3>
+                <h3><i class="fa-brands fa-square-instagram"></i> Instagram</h3>
+                <h3><i class="fa-brands fa-square-twitter"></i> Twitter</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
