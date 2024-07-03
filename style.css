@@ -40,14 +40,17 @@ body
     width: 350px;
     height: 550px;
     background-color: rgb(217, 195, 165);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.812), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 8px;
 }
-img
+#img
 {
     width: 250px;
     height: 350px;
-    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.812), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 h2,h3,h4
 {
@@ -70,19 +73,17 @@ button:hover
     background-color:rgb(211, 188, 162) ;
     color: rgb(92, 0, 0);
 }
-/* #banner
-{
-    background-image: url('https://images7.alphacoders.com/133/1338193.png');
-    width: 100%;
-    height: 550px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-} */
+
+ #video
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 video
 {
-    width: 100%;
+    margin: 20px;
+    width: 70%;
 }
 footer
 {
@@ -98,4 +99,65 @@ footer
 {
     text-align: center;
     padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:400px) 
+{
+    header
+    {
+        width: 400px;
+        height: 40px;
+    }
+    header h1
+    {
+        font-size: 25px;
+    }
+    /* #video
+    {
+        width: 100%;
+    } */
+    video
+    {
+        width: 95%;
+    }
+    .row
+    {
+        width: 400px;
+        display: flex;
+        flex-direction:column ;
+        margin-top: 20px;
+    }
+    .col
+    {
+        width: 260px;
+        margin: 10px;
+        padding: 10px;
+    }
+    #img
+    {
+        width: 200px;
+        height: 300px;
+    }
+    #second
+    {
+        margin-top: 1310px;
+    }
+    footer
+    {
+        margin-top: 1310px;
+        bottom: 0px;
+    }
+    .foot
+    {
+        display: flex;
+        flex-direction:column ;
+    }
+    .f1 iframe
+    {
+        width: 250px;
+    }
 }
